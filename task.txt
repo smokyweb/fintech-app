@@ -1,0 +1,32 @@
+Build a full-stack Fintech Automated Trading-as-a-Service Demo App. This is a demo/showcase app for bluesapps.com.
+
+TECH STACK:
+- Frontend: React 18 + Vite + Tailwind CSS
+- Backend: Node.js + Express + SQLite (better-sqlite3)
+- Auth: JWT
+- PM2 for process management
+
+FEATURES TO BUILD:
+1. User Accounts: signup/login with JWT auth, user dashboard
+2. User Funding: add funds to wallet (mock/demo flow - no real payments), wallet balance display
+3. Futures Trading: demo futures contracts (BTC, ETH, Gold, Oil) with buy/sell, P&L tracking
+4. Forex Trading: major currency pairs (EUR/USD, GBP/USD, USD/JPY etc), live mock rates that update every 10s
+5. Crypto Investing: BTC, ETH, SOL, ADA - buy/hold/sell with portfolio view
+6. Algorithmic Trading Bots: 3 preset bot strategies (Momentum, Mean Reversion, Breakout) - user can activate/deactivate bots, bots auto-trade on interval
+7. Referral Rewards: each user gets a referral code, refer friends = earn 5% bonus on their first deposit
+8. Admin Panel: /admin (admin/Admin2026!) - view all users, balances, trades, bot activity
+
+DESIGN:
+- Dark professional theme: bg #0A0F1E (deep navy), accent #00D4AA (emerald/teal), text white
+- Clean financial dashboard feel - like Binance or Robinhood dark mode
+- Responsive mobile-friendly
+
+STRUCTURE:
+- /frontend - React Vite app
+- /backend - Express API on port 4050
+
+After building everything:
+1. Create GitHub repo and push: gh repo create smokyweb/fintech-app --public --source=. --remote=origin --push
+2. Write a file called BUILD_COMPLETE.txt in the project root summarizing what was built
+
+Do NOT run any openclaw commands. Just build, push to GitHub, and write BUILD_COMPLETE.txt when done.
